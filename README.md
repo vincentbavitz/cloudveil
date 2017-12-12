@@ -40,5 +40,6 @@ ___
  * Remove aescrypt dependency
  * Make multiplatform by using cross-platform tools
  * Improve security by replacing the depreciated PyCrypto library with the PyCa Cryptography library
+ * Find a better solution to outrageously long filenames (maybe hashes?)
  
  
