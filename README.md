@@ -6,7 +6,7 @@ This program simply encrypts your files (including filenames) and places them in
 I wanted to avoid sending enormous [encrypted file containers](https://en.wikipedia.org/wiki/VeraCrypt) to cloud services because they have the
 disadvantages of:
 * using heaps of memory in the uploading process
-* having to reuploade the entire container after only minor changes to files within
+* having to reupload the entire container after only minor changes to files within
 
 Therefore, your individual files and their filenames are encrypted with AES256 in CBC mode.
 
