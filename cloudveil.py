@@ -130,12 +130,9 @@ def encrypt_n_push(sync_directory, input_directory, key):
         
 def decrypt_n_pull(sync_directory, landing_directory, key):
     '''
-    Takes files whose 
+    Decrypts files and their filenames from the sync directory
+    and places them into the landing directory
     '''
-    #get a list of all files in sync directory - NON RECURSIVELY
-    #decrypt them into their original string values: REL_PATH
-    #decrypt files and place them in their landing directory + REL_PATH
-    #??? profit
     
     #set landing_directory location if config file has no value
     if not landing_directory:
