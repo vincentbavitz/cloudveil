@@ -1,9 +1,6 @@
 ![alt text](https://image.ibb.co/mVqMxw/cloudveil_icon_sm.png "Cloud Veil")
 # Cloud Veil 
 
-A tool written in python to encrypt and obfuscate your files in cloud storage
-
-## What is this for?
 This program simply encrypts your files (including filenames) and places them into your desired directory. The intended purpose of the program is to encrypt sensitive files and send them to a mounted [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) virtual disk which is connected to your cloud storage. Encrypting your files in this way adds another layer of security to cloud storage so you don't have to worry about the trustworthiness of their privacy claims. 
 
 I wanted to avoid sending enormous [encrypted file containers](https://en.wikipedia.org/wiki/VeraCrypt) to cloud services because they have the
