@@ -25,13 +25,13 @@ The directory information is recovered upon decryption, allowing the program to 
 
 ___
 **NOTE**:
-* If you decide to send files directly to your [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) volume, note that the program will only write to the disk as fast as your upload limit permits it.
+* If you decide to send files directly to your [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem, note that the program will only write to the disk as fast as your upload limit permits it.
 * File sizes are not altered to any obfuscatory extent which may give hints to the types of files which are being stored.
-* The same key is used for each file and again for each file-name (each using a different randomly generated [initialisation vector](https://en.wikipedia.org/wiki/Initialization_vector))
+* The same key is used for each file and again for each file-name (each using a different randomly generated [initialization vector](https://en.wikipedia.org/wiki/Initialization_vector))
 
 ## Requirements
 1. A UNIX based machine
-2. [AesCrypt](https://www.aescrypt.com) (Linux)
+2. [AESCrypt](https://www.aescrypt.com) (Linux)
 3. PyCrypto (install with Pip)
 4. [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) *optional*
 
