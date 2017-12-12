@@ -14,9 +14,13 @@ Therefore, your individual files and their filenames are encrypted with AES256 i
 The idea of Cloud Veil is to ensure that the cloud storage is self contained. This means that even if all of your drives were stolen, lost or damaged, you could still recover your files in their correct directories with your cloud login credentials and your encryption key.
 
 No directory information is compromised because the filenames are encrypted as absolute paths and sent to a single directory on the cloud server.
+
 Eg. */home/$USER/path/to/my/favourite/file.txt*
+
 becomes
+
 */cloud-root/FGB387RFG134UYRTFBKUGVW8723KB789HITG14RTG34YWBN4T7GHVBDFJKGBGIEG*
+
 The directory information is recovered upon decryption, allowing the program to place the files in the proper places upon recovery or downloading. This has the advantage of not revealing any information about the depth of your directories and also keeping the total directory length below the UNIX limit of 256 characters.
 
 ___
